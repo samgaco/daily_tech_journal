@@ -11,7 +11,7 @@ Here I will keep track of the things I learn daily related to tech
 | Restful Api's / Http apis    | Representational state transfer | https://www.andrewhavens.com/posts/20/beginners-guide-to-creating-a-rest-api |
 
 
-##JQ
+## JQ
 
 Use cases:
 
