@@ -5,14 +5,16 @@ Here I will keep track of the things I learn daily related to tech
 
 ### 14 of January
 
+Worked connecting the client side with the server side and related, On my [GoTalk](https://github.com/samgaco/gotalk) application.
+
+
 | Tools/Concepts        | Are           | Reference  |
 | ------------- |:-------------:| -----:|
-| jq     | command-line JSON processor. | https://stedolan.github.io/jq/ |
-| Restful Api's / Http apis    | Representational state transfer | https://www.andrewhavens.com/posts/20/beginners-guide-to-creating-a-rest-api |
-| Long polling    | Instant changes pushed to clients | https://en.wikipedia.org/wiki/Push_technology#Long_polling |
-| Passing props to links | How to pass data on react routes | https://tylermcginnis.com/react-router-pass-props-to-link/ |
-
-
+| jq     | command-line JSON processor. | [More Info](https://stedolan.github.io/jq/) |
+| Restful Api's / Http apis    | Representational state transfer | [More Info](https://www.andrewhavens.com/posts/20/beginners-guide-to-creating-a-rest-api) |
+| Long polling    | Instant changes pushed to clients | [More Info](https://en.wikipedia.org/wiki/Push_technology#Long_polling) |
+| Passing props to links | How to pass data on react routes | [More Info](https://tylermcginnis.com/react-router-pass-props-to-link/) |
+| verify_authenticity_token | Controller protection (RoR) | [More Info](https://api.rubyonrails.org/classes/ActionController/RequestForgeryProtection.html) |
 
 
 ## JQ
@@ -59,5 +61,5 @@ Use cases:
 }}>My route</Link>
 ```
 
-The object state will be accessible within the component linked with `/myroute` as `this.props.location.state` and pathname with be accesible with ` this.props.match.params`
+The object state will be accessible within the component linked with `/myroute` as `this.props.location.state` and pathname will be accesible with ` this.props.match.params`
 
