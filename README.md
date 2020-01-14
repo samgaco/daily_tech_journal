@@ -10,6 +10,8 @@ Here I will keep track of the things I learn daily related to tech
 | jq     | command-line JSON processor. | https://stedolan.github.io/jq/ |
 | Restful Api's / Http apis    | Representational state transfer | https://www.andrewhavens.com/posts/20/beginners-guide-to-creating-a-rest-api |
 | Long polling    | Instant changes pushed to clients | https://en.wikipedia.org/wiki/Push_technology#Long_polling |
+| Passing props to links | How to pass data on react routes | https://tylermcginnis.com/react-router-pass-props-to-link/ |
+
 
 
 
@@ -42,3 +44,20 @@ curl -X GET localhost:3000/api/timers | jq '.[] | {id}'
   "id": "0a4a79cb-b06d-4cb1-883d-549a1e3b66d7"
 }
 ```
+
+
+## Passing props to links
+
+Use cases:
+
+```
+<Link to={{
+  pathname: '/myroute',
+  state: {
+    newData: true
+  }
+}}>My route</Link>
+```
+
+The object state will be accessible within the component linked with `/myroute` as `this.props.location.state` and pathname with be accesible with ` this.props.match.params`
+
