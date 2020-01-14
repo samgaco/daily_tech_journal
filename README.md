@@ -9,6 +9,8 @@ Here I will keep track of the things I learn daily related to tech
 | ------------- |:-------------:| -----:|
 | jq     | command-line JSON processor. | https://stedolan.github.io/jq/ |
 | Restful Api's / Http apis    | Representational state transfer | https://www.andrewhavens.com/posts/20/beginners-guide-to-creating-a-rest-api |
+| Long polling    | Instant changes pushed to clients | https://en.wikipedia.org/wiki/Push_technology#Long_polling |
+
 
 
 ## JQ
